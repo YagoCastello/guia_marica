@@ -1,0 +1,4 @@
+# Botão para abrir no Google Maps
+    maps_button = ctk.CTkButton(master=gallery_frame, text="Ver no Google Maps", 
+                                 command=lambda url=place["url"]: webbrowser.open(url))
+    maps_button.pack(pady=10)
