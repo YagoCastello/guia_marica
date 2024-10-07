@@ -12,9 +12,9 @@ import ui
 # Funções individuais de exploração
 def explorar_praia():
     praias = [
-        {"name": "Praia 1", "image": "images/praia1.png", "description": "Uma das mais belas praias do Brasil.", "gallery": ["images/praia1.png", "images/praia1_1.png"]},
-        {"name": "Praia 2", "image": "images/praia2.png", "description": "Famosa praia no Rio de Janeiro.", "gallery": ["images/praia2.png","images/praia2_1.png"]},
-        {"name": "Praia 3", "image": "images/praia2.png", "description": "Famosa praia no Rio de Janeiro.", "gallery": ["images/praia2.png","images/praia2_1.png"]}
+        {"name": "Praia de Ponta negra", "image": "images/praia1.png", "description": "A Praia de Ponta Negra, em Maricá, é um verdadeiro paraíso carioca, conhecida por suas águas cristalinas e paisagens deslumbrantes. Com um extenso trecho de areia fina e dourada.", "gallery": ["images/praia1.png", "images/praia1_1.png", "images/praia1_2.png"]},
+        {"name": "Praia da Barra", "image": "images/praia2.png", "description": "A Praia da Barra de Maricá é um verdadeiro paraíso para os amantes da natureza e da tranquilidade. Localizada na costa do Rio de Janeiro.", "gallery": ["images/praia2.png","images/praia2_1.png","images/praia2_2.png"]},
+        {"name": "Praia do Francês", "image": "images/praia3 .png", "description": "A Praia do Francês, em Maricá, é um destino encantador que combina natureza exuberante com uma atmosfera relaxante. Com suas águas claras e mornas.", "gallery": ["images/praia3.png","images/praia3_1.png","images/praia3_2.png"]}
     ]
 
     global all_items
@@ -25,8 +25,9 @@ def explorar_praia():
 
 def explorar_bares():
     bares = [
-        {"name": "Bar 1", "image": "images/bar1.png", "description": "Ambiente agradável com música ao vivo.", "gallery": ["images/bar1.png", "images/bar1_1.png"]},
-        {"name": "Bar 2", "image": "images/bar2.png", "description": "Excelente local para petiscos e cerveja gelada.", "gallery": ["images/bar2.png","images/bar2_1.png"]},
+        {"name": "Bar do zé", "image": "images/bar1.png", "description": "Ambiente agradável com música ao vivo.", "gallery": ["images/bar1.png", "images/bar1_1.png","images/bar1_2.png"]},
+        {"name": "Buteco", "image": "images/bar2.png", "description": "Excelente local para petiscos e cerveja gelada.", "gallery": ["images/bar2.png","images/bar2_1.png","images/bar2_2.png"]},
+        {"name": "Pingado", "image": "images/bar3.png", "description": "Bar histórico, funcionando a mais de 50 anos na cidade", "gallery": ["images/bar3.png","images/bar3_1.png","images/bar3_2.png"]},
     ]
     global all_items
     ui.all_items.extend(bares)  # Adiciona a lista global
@@ -37,8 +38,9 @@ def explorar_bares():
 
 def explorar_restaurantes():
     restaurantes = [
-        {"name": "Bar 1", "image": "images/bar1.png", "description": "Ambiente agradável com música ao vivo.", "gallery": ["images/bar1.png", "images/bar1_1.png"]},
-        {"name": "Bar 2", "image": "images/bar2.png", "description": "Excelente local para petiscos e cerveja gelada.", "gallery": ["images/bar2.png","images/bar2_1.png"]},
+        {"name": "LaBraza", "image": "images/restaurante1.png", "description": "Ambiente agradável com música ao vivo.", "gallery": ["images/restaurante1.png", "images/restaurante1_1.png", "images/restaurante1_2.png"]},
+        {"name": "Ovocelente", "image": "images/restaurante2.png", "description": "Excelente local para petiscos e cerveja gelada.", "gallery": ["images/restaurante2.png","images/restaurante2_1.png","images/restaurante2_2.png"]},
+        {"name": "Comida de vô", "image": "images/restaurante3.png", "description": "Excelente local para petiscos e cerveja gelada.", "gallery": ["images/restaurante3.png","images/restaurante3_1.png","images/restaurante3_2.png"]},
     ]
     global all_items
     ui.all_items.extend(restaurantes)  # Adiciona a lista global
@@ -48,9 +50,10 @@ def explorar_restaurantes():
 
 def explorar_trilhas():
     trilhas = [
-        {"name": "Bar 1", "image": "images/bar1.png", "description": "Ambiente agradável com música ao vivo.", "gallery": ["images/bar1.png", "images/bar1_1.png"]},
-        {"name": "Bar 2", "image": "images/bar2.png", "description": "Excelente local para petiscos e cerveja gelada.", "gallery": ["images/bar2.png","images/bar2_1.png"]},
-    ]
+        {"name": "Trilha da pedra do Macaco", "image": "images/trilha1.png", "description": "Excelente local para petiscos e cerveja gelada.", "gallery": ["images/trilha1.png","images/trilha1_1.png","images/trilha1_2.png"]},
+        {"name":"Trilha da Pedra do elefante", "image": "images/trilha2.png", "description": "Excelente local para petiscos e cerveja gelada.", "gallery": ["images/trilha2.png","images/trilha2_1.png","images/trilha2_2.png"]},
+        {"name":"Trilha do Spar", "image": "images/trilha3.png", "description": "Excelente local para petiscos e cerveja gelada.", "gallery": ["images/trilha3.png","images/trilha3_1.png","images/trilha3_2.png"]},
+        ]
     global all_items
     ui.all_items.extend(trilhas)  # Adiciona a lista global
 
@@ -59,9 +62,10 @@ def explorar_trilhas():
 
 def explorar_cultura():
     cultura = [
-        {"name": "Bar 1", "image": "images/bar1.png", "description": "Ambiente agradável com música ao vivo.", "gallery": ["images/bar1.png", "images/bar1_1.png"]},
-        {"name": "Bar 2", "image": "images/bar2.png", "description": "Excelente local para petiscos e cerveja gelada.", "gallery": ["images/bar2.png","images/bar2_1.png"]},
-    ]
+        {"name": "Casa de cultura", "image": "images/cultura1.png", "description": "Excelente local para petiscos e cerveja gelada.", "gallery": ["images/cultura1.png","images/cultura1_1.png","images/cultura1_2.png"]},
+        {"name":"Casa Darci Ribeiro", "image": "images/cultura2.png", "description": "Excelente local para petiscos e cerveja gelada.", "gallery": ["images/cultura2.png","images/cultura2_1.png","images/cultura2_2.png"]},
+        {"name":"Fazenda de itacatiaia", "image": "images/cultura3.png", "description": "Excelente local para petiscos e cerveja gelada.", "gallery": ["images/cultura3.png","images/cultura3_1.png","images/cultura3_2.png"]},
+        ]
     global all_items
     ui.all_items.extend(cultura)  # Adiciona a lista global
 
@@ -71,9 +75,10 @@ def explorar_cultura():
 
 def explorar_lagoas():
     lagoas = [
-        {"name": "Bar 1", "image": "images/bar1.png", "description": "Ambiente agradável com música ao vivo.", "gallery": ["images/bar1.png", "images/bar1_1.png"]},
-        {"name": "Bar 2", "image": "images/bar2.png", "description": "Excelente local para petiscos e cerveja gelada.", "gallery": ["images/bar2.png","images/bar2_1.png"]},
-    ]
+        {"name": "Lagoa de Araçatiba", "image": "images/lagoa1.png", "description": "Excelente local para petiscos e cerveja gelada.", "gallery": ["images/lagoa1.png","images/lagoa1_1.png","images/lagoa1_2.png"]},
+        {"name": "Lagoa da garota ", "image": "images/lagoa2.png", "description": "Excelente local para petiscos e cerveja gelada.", "gallery": ["images/lagoa2.png","images/lagoa2_1.png","images/lagoa2_2.png"]},
+        {"name":"Lagoa da ponte preta", "image": "images/lagoa3.png", "description": "Excelente local para petiscos e cerveja gelada.", "gallery": ["images/lagoa3.png","images/lagoa3_1.png","images/lagoa3_2.png"]},
+        ]
     global all_items
     ui.all_items.extend(lagoas)  # Adiciona a lista global
 
@@ -83,9 +88,10 @@ def explorar_lagoas():
 
 def explorar_boates():
     boates = [
-        {"name": "Bar 1", "image": "images/bar1.png", "description": "Ambiente agradável com música ao vivo.", "gallery": ["images/bar1.png", "images/bar1_1.png"]},
-        {"name": "Bar 2", "image": "images/bar2.png", "description": "Excelente local para petiscos e cerveja gelada.", "gallery": ["images/bar2.png","images/bar2_1.png"]},
-    ]
+        {"name": "Mahalo", "image": "images/boate1.png", "description": "Excelente local para petiscos e cerveja gelada.", "gallery": ["images/boate1.png","images/boate1_1.png","images/boate1_2.png"]},
+        {"name": "Magazine Luiza", "image": "images/boate2.png", "description": "Excelente local para petiscos e cerveja gelada.", "gallery": ["images/boate2.png","images/boate2_1.png","images/boate2_2.png"]},
+        {"name":"Império", "image": "images/boate3.png", "description": "Excelente local para petiscos e cerveja gelada.", "gallery": ["images/boate3.png","images/boate3_1.png","images/boate3_2.png"]},
+        ]
     global all_items
     ui.all_items.extend(boates)  # Adiciona a lista global
 
@@ -95,9 +101,10 @@ def explorar_boates():
 
 def explorar_hoteis_e_pousados():
     hoteis_e_pousados = [
-        {"name": "Bar 1", "image": "images/bar1.png", "description": "Ambiente agradável com música ao vivo.", "gallery": ["images/bar1.png", "images/bar1_1.png"]},
-        {"name": "Bar 2", "image": "images/bar2.png", "description": "Excelente local para petiscos e cerveja gelada.", "gallery": ["images/bar2.png","images/bar2_1.png"]},
-    ]
+        {"name": "Mahalo", "image": "images/hoteis1.png", "description": "Excelente local para petiscos e cerveja gelada.", "gallery": ["images/hoteis1.png","images/hoteis1_1.png","images/hoteis1_2.png"]},
+        {"name": "Magazine Luiza", "image": "images/hoteis2.png", "description": "Excelente local para petiscos e cerveja gelada.", "gallery": ["images/hoteis2.png","images/hoteis2_1.png","images/hoteis2_2.png"]},
+        {"name":"Império", "image": "images/hoteis3.png", "description": "Excelente local para petiscos e cerveja gelada.", "gallery": ["images/hoteis3.png","images/hoteis3_1.png","images/hoteis3_2.png"]},
+        ]
     global all_items
     ui.all_items.extend(hoteis_e_pousados)  # Adiciona a lista global
 
@@ -107,9 +114,10 @@ def explorar_hoteis_e_pousados():
 
 def explorar_estacionamento():
     estacionamento  = [
-        {"name": "Bar 1", "image": "images/bar1.png", "description": "Ambiente agradável com música ao vivo.", "gallery": ["images/bar1.png", "images/bar1_1.png"]},
-        {"name": "Bar 2", "image": "images/bar2.png", "description": "Excelente local para petiscos e cerveja gelada.", "gallery": ["images/bar2.png","images/bar2_1.png"]},
-    ]
+        {"name": "Mahalo", "image": "images/estacionamento1.png", "description": "Excelente local para petiscos e cerveja gelada.", "gallery": ["images/estacionamento1.png","images/estacionamento1_1.png","images/estacionamento1_2.png"]},
+        {"name": "Magazine Luiza", "image": "images/estacionamento2.png", "description": "Excelente local para petiscos e cerveja gelada.", "gallery": ["images/estacionamento2.png","images/estacionamento2_1.png","images/estacionamento2_2.png"]},
+        {"name":"Império", "image": "images/estacionamento3.png", "description": "Excelente local para petiscos e cerveja gelada.", "gallery": ["images/estacionamento3.png","images/estacionamento3_1.png","images/estacionamento3_2.png"]},
+      ]
     global all_items
     ui.all_items.extend(estacionamento )  # Adiciona a lista global
 
