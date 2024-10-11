@@ -1,5 +1,0 @@
-places = [
-            {"name": "Praia do Francês", "image": "C:/Users/Noite.P0122005554/Documents/projeto/guia_marica-main/outros/images/praia1.png", 
-             "description": "Uma das mais belas praias do Brasil, localizada em Alagoas.", 
-             "gallery": ["C:/Users/Noite.P0122005554/Documents/projeto/guia_marica-main/outros/images/praia1.png" ,"C:/Users/Noite.P0122005554/Documents/projeto/guia_marica-main/outros/images/praia1_1.png","C:/Users/Noite.P0122005554/Documents/projeto/guia_marica-main/outros/images/praia1_2.png"],
-             'url':'https://www.google.com/maps/@-23.5505,-46.6333,12z'}
